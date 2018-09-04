@@ -1,4 +1,3 @@
-let postcssPxToViewport = require('postcss-px-to-viewport');
 
 module.exports = {
     plugins: [

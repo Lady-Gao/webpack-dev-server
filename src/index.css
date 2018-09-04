@@ -1,5 +1,5 @@
-.inner{
-    width:300px;
+div{
     height:300px;
-    background-color: rgb(177, 153, 153);
+    width:400px;
+    background:rgb(116, 31, 31);
 }

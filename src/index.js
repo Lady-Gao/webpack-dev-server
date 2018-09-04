@@ -1,1 +1,2 @@
-console.log(4666)
+require("./index.css")
+console.log(3)

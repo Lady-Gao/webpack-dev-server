@@ -1,21 +1,21 @@
 {
-  "name": "webpackServe",
+  "name": "webpackserve",
   "version": "1.0.0",
   "description": "",
-  "main": "postcss.config.js",
+  "main": "index.js",
   "scripts": {
-    "dev":"webpack-dev-server --open"
+    "server": "webpack-dev-server --open"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "babel-core": "^6.21.0",
-    "babel-loader": "^7.1.4",
-    "babel-preset-es2015": "^6.18.0",
+  "dependencies": {
+    "css-loader": "^1.0.0",
     "html-webpack-plugin": "^3.2.0",
-    "webpack": "^4.8.3",
-    "webpack-cli": "^2.1.4",
+    "postcss-loader": "^3.0.0",
+    "postcss-px-to-viewport": "^0.0.3",
+    "style-loader": "^0.22.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.5"
   }
 }
