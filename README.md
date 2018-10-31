@@ -1,4 +1,7 @@
 ## 配置webpack
+ * @author: gaoyanan
+ * @see https: //github.com/Lady-Gao
+ 
 >`package.json`
 
 ```js
